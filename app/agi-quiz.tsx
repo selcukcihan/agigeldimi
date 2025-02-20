@@ -54,7 +54,7 @@ const questions = [
       "Evet, hakikaten haklıydı",
       "Asla, ben hep haklıyım",
       "Orta yolu bulduk",
-      "Hala tartışıyoruz",
+      "Hâlâ tartışıyoruz",
     ],
   },
   {
@@ -110,7 +110,7 @@ export default function AGIQuiz() {
     } else {
       return {
         title: "Henüz Değil!",
-        description: "Yapay zekâ hala bariz bir makine. Ama en azından dürüst!",
+        description: "Yapay zekâ hâlâ bariz bir makine. Ama en azından dürüst!",
         icon: <Bot className="h-12 w-12 text-blue-500" />,
       };
     }
