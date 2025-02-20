@@ -97,21 +97,20 @@ export default function AGIQuiz() {
       return {
         title: "AGI Gelmiş! (Herhalde?)",
         description:
-          "Ya AGI'ye ulaştık, ya da yapay zekan rol yapma konusunda çok başarılı. Robot efendilerimizi selamlama vakti!",
+          "Ya AGI'ye ulaştık, ya da yapay zekâ rol yapma konusunda çok başarılı. Robot efendilerimizi selamlama vakti!",
         icon: <Sparkles className="h-12 w-12 text-yellow-500" />,
       };
     } else if (funnyResponses >= 2) {
       return {
         title: "Yaklaşıyoruz!",
         description:
-          "Tam AGI değil ama yapay zekan şaşırtıcı derecede insansı özellikler gösteriyor. Gözün üstünde olsun!",
+          "Tam AGI değil ama yapay zekâ şaşırtıcı derecede insansı özellikler gösteriyor. Gözün üstünde olsun!",
         icon: <Brain className="h-12 w-12 text-purple-500" />,
       };
     } else {
       return {
         title: "Henüz Değil!",
-        description:
-          "Yapay zekan hala bariz bir makine. Ama en azından dürüst!",
+        description: "Yapay zekâ hala bariz bir makine. Ama en azından dürüst!",
         icon: <Bot className="h-12 w-12 text-blue-500" />,
       };
     }
@@ -181,7 +180,7 @@ export default function AGIQuiz() {
               bir konuda insan gibi düşünüp karar verebilecek.
             </p>
             <p>
-              Peki, yapay zekan AGI seviyesine ulaşmış mı? Hadi test edelim! 🤖
+              Peki, yapay zekâ AGI seviyesine ulaşmış mı? Hadi test edelim! 🤖
             </p>
           </CardDescription>
         </CardHeader>
