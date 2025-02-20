@@ -145,7 +145,7 @@ export default function AGIQuiz() {
             variant="outline"
             className="w-full"
             onClick={() => {
-              const text = `${result.title}\n\n${result.description}\n\nSen de AGI testini dene:`;
+              const text = `${result.title}\n\n${result.description} #agigeldimi \n\nSen de AGI testini dene:`;
               const url = window.location.href;
               window.open(
                 `https://twitter.com/intent/tweet?text=${encodeURIComponent(
